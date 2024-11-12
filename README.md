@@ -1,1 +1,1 @@
-<a href="anastuart.github.io/ThesisFinalIdentifiedAnaStuart.pdf" target="_blank">PDF.</a>
+<a href="anastuart.com/ThesisFinalIdentifiedAnaStuart.pdf" target="_blank">PDF.</a>

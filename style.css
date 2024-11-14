@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap");
-<link rel="stylesheet" type="text/css"
-    href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+
+
 <style>
 body {
-  font-family: "Computer Modern Serif", serif;
+  font-family: "Domine", serif;
 }
 
 body,
@@ -15,7 +15,7 @@ main {
 }
 
 body {
-  font-family: "Computer Modern Serif", serif;
+  font-family: "Domine", serif;
   color: white;
   background: linear-gradient(to right, #30cfd0, #330867);
   margin: 0;
@@ -54,7 +54,7 @@ body {
     gap: 20px;
 
     button {
-      font-family: "Computer Modern Serif", serif;
+      font-family: "Domine", serif;
       font-weight: 500;
       font-size: 16px;
       width: 200px;

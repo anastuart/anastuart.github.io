@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anastasia Stuart Portfolio</title>
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -15,25 +21,32 @@
       <h1>Anastasia Stuart</h1>
       <h2>😴 Sleep Researcher</h2>
     </header>
+
     <main>
-      <a href="https://anastuart.com/slr.pdf">
-      <button>The Effects of Eye Movement Desensitisation and Reprocessing on Sleep in Adults with
-Post-Traumatic Stress Disorder</button>   
-      <a href="https://anastuart.com/ThesisFinalIdentifiedAnaStuart.pdf">
-        <button>Subjective and Objective Sleepiness in Non-Restorative Sleep, Insomnia Disorder, and Healthy Controls</button>
-      </a>
-      <a href="https://anastuart.com/ThesisPosterAnaStuart.png">
-        <button>🖼️ My Poster</button>
-      </a>
-      <a href="mailto:anastasia.stuart@woolcock.org.au">
-        <button>✉️ Email</button>
-      </a>
-      <a href="https://github.com/anastuart">
-        <button>👾 Github</button>
-      </a>
+      <section aria-labelledby="research-heading">
+        <h3 id="research-heading">Research</h3>
+        <a class="link link-long" href="https://anastuart.com/slr.pdf">
+          <span class="link-title">The Effects of Eye Movement Desensitisation and Reprocessing on Sleep in Adults with Post-Traumatic Stress Disorder</span>
+          <span class="link-meta">📄 Systematic review (PDF)</span>
+        </a>
+        <a class="link link-long" href="https://anastuart.com/ThesisFinalIdentifiedAnaStuart.pdf">
+          <span class="link-title">Subjective and Objective Sleepiness in Non-Restorative Sleep, Insomnia Disorder, and Healthy Controls</span>
+          <span class="link-meta">📄 Thesis (PDF)</span>
+        </a>
+        <a class="link" href="https://anastuart.com/ThesisPosterAnaStuart.png">🖼️ My Poster</a>
+      </section>
+
+      <section aria-labelledby="contact-heading">
+        <h3 id="contact-heading">Contact</h3>
+        <div class="link-row">
+          <a class="link" href="mailto:anastasia.stuart@woolcock.org.au">✉️ Email</a>
+          <a class="link" href="https://github.com/anastuart">👾 Github</a>
+        </div>
+      </section>
     </main>
+
     <footer>
-      <p>&copy Ana Stuart 2026</p>
+      <p>&copy; Ana Stuart 2026</p>
     </footer>
   </body>
 </html>
